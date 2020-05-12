@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5eb89f88d03993001b8f3e11"
+    },
+    "response": {
+        "venues": [
+            {
+                "id": "58d933702f91cb026f478e38",
+                "name": "East One Coffee Roasters",
+                "location": {
+                    "address": "384 Court St",
+                    "crossStreet": "at Carroll St",
+                    "lat": 40.681128035266816,
+                    "lng": -73.99652634325895,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 40.681128035266816,
+                            "lng": -73.99652634325895
+                        }
+                    ],
+                    "distance": 7548,
+                    "postalCode": "11231",
+                    "cc": "US",
+                    "neighborhood": "Carroll Gardens",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "country": "United States",
+                    "formattedAddress": [
+                        "384 Court St (at Carroll St)",
+                        "Brooklyn, NY 11231",
+                        "United States"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "delivery": {
+                    "id": "1153265",
+                    "url": "https://www.seamless.com/menu/east-one-coffee-384-court-st-brooklyn/1153265?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1153265",
+                    "provider": {
+                        "name": "seamless",
+                        "icon": {
+                            "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                            "sizes": [
+                                40,
+                                50
+                            ],
+                            "name": "/delivery_provider_seamless_20180129.png"
+                        }
+                    }
+                },
+                "referralId": "v-1589157872",
+                "hasPerk": false
+            },
+            {
+                "id": "4b8f519df964a520485133e3",
+                "name": "Dunkin'",
+                "location": {
+                    "address": "1375 Rockaway Pkwy",
+                    "crossStreet": "at Smiths Ln",
+                    "lat": 40.646266,
+                    "lng": -73.903348,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 40.646266,
+                            "lng": -73.903348
+                        },
+                        {
+                            "label": "entrance",
+                            "lat": 40.64625,
+                            "lng": -73.903386
+                        }
+                    ],
+                    "distance": 13329,
+                    "postalCode": "11236",
+                    "cc": "US",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "country": "United States",
+                    "formattedAddress": [
+                        "1375 Rockaway Pkwy (at Smiths Ln)",
+                        "Brooklyn, NY 11236",
+                        "United States"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d148941735",
+                        "name": "Donut Shop",
+                        "pluralName": "Donut Shops",
+                        "shortName": "Donuts",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/donuts_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "referralId": "v-1589157872",
+                "hasPerk": false
+            }
+        ],
+        "confident": false
+    }
+}
+

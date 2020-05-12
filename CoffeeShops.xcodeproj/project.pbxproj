@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C337D2D8246A39450096370E /* ErrorResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C337D2D7246A39450096370E /* ErrorResponse.json */; };
+		C337D2DC246A3FE20096370E /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337D2DB246A3FE20096370E /* URLExtensions.swift */; };
+		C337D2DE246A40030096370E /* UIVIewControllerExtesnions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337D2DD246A40030096370E /* UIVIewControllerExtesnions.swift */; };
 		C349A65D2465FB5C00685DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A65C2465FB5C00685DFD /* AppDelegate.swift */; };
 		C349A65F2465FB5C00685DFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A65E2465FB5C00685DFD /* SceneDelegate.swift */; };
 		C349A6612465FB5C00685DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A6602465FB5C00685DFD /* ViewController.swift */; };
@@ -14,6 +17,28 @@
 		C349A6662465FB5E00685DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C349A6652465FB5E00685DFD /* Assets.xcassets */; };
 		C349A6692465FB5E00685DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C349A6672465FB5E00685DFD /* LaunchScreen.storyboard */; };
 		C349A6742465FB5E00685DFD /* CoffeeShopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A6732465FB5E00685DFD /* CoffeeShopsUITests.swift */; };
+		C349A680246603E800685DFD /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A67F246603E800685DFD /* SearchResponse.swift */; };
+		C349A687246728E700685DFD /* FourSquareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A686246728E700685DFD /* FourSquareService.swift */; };
+		C349A68924672A6E00685DFD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A68824672A6E00685DFD /* Result.swift */; };
+		C349A68C24672C7100685DFD /* CoffeeMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A68B24672C7100685DFD /* CoffeeMapViewModel.swift */; };
+		C349A68F2467340400685DFD /* FSAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A68E2467340400685DFD /* FSAnnotation.swift */; };
+		C349A692246735C600685DFD /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A691246735C600685DFD /* AnnotationView.swift */; };
+		C349A6A32467724900685DFD /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = C349A6A22467724900685DFD /* Response.json */; };
+		C349A6A8246777CA00685DFD /* FourSquareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A6A7246777CA00685DFD /* FourSquareRequest.swift */; };
+		C35C118A2469993400D74DD4 /* MockCoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C11892469993400D74DD4 /* MockCoffeeViewModel.swift */; };
+		C38FE72524688BD10062C9E7 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE72424688BD10062C9E7 /* LocationService.swift */; };
+		C38FE728246898C40062C9E7 /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE727246898C40062C9E7 /* MockLocationManager.swift */; };
+		C38FE72A24689AA50062C9E7 /* LocationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE72924689AA50062C9E7 /* LocationServiceTests.swift */; };
+		C38FE72C2468D1B80062C9E7 /* CoffeeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE72B2468D1B80062C9E7 /* CoffeeViewModelTests.swift */; };
+		C38FE72E2468D1EC0062C9E7 /* MockFourSquareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE72D2468D1EC0062C9E7 /* MockFourSquareService.swift */; };
+		C38FE72F2468DA840062C9E7 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = C349A6A22467724900685DFD /* Response.json */; };
+		C38FE7312468DC210062C9E7 /* Mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = C38FE7302468DC210062C9E7 /* Mockdata.json */; };
+		C38FE7332468EA060062C9E7 /* MockNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE7322468EA060062C9E7 /* MockNetworkSession.swift */; };
+		C38FE7352468EAC40062C9E7 /* FourSquareServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE7342468EAC40062C9E7 /* FourSquareServiceTests.swift */; };
+		C38FE7372468FFFD0062C9E7 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE7362468FFFD0062C9E7 /* MockRequest.swift */; };
+		C38FE7392469002F0062C9E7 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE7382469002F0062C9E7 /* RequestProtocol.swift */; };
+		C3F2E1602469043E00AB3BA5 /* FourSuareRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F2E15F2469043E00AB3BA5 /* FourSuareRequestTests.swift */; };
+		C3F2E16224690E9100AB3BA5 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F2E16124690E9100AB3BA5 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +49,19 @@
 			remoteGlobalIDString = C349A6582465FB5C00685DFD;
 			remoteInfo = CoffeeShops;
 		};
+		C349A69C2467713C00685DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C349A6512465FB5C00685DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C349A6582465FB5C00685DFD;
+			remoteInfo = CoffeeShops;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C337D2D7246A39450096370E /* ErrorResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ErrorResponse.json; sourceTree = "<group>"; };
+		C337D2DB246A3FE20096370E /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		C337D2DD246A40030096370E /* UIVIewControllerExtesnions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtesnions.swift; sourceTree = "<group>"; };
 		C349A6592465FB5C00685DFD /* CoffeeShops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C349A65C2465FB5C00685DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C349A65E2465FB5C00685DFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +73,29 @@
 		C349A66F2465FB5E00685DFD /* CoffeeShopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C349A6732465FB5E00685DFD /* CoffeeShopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopsUITests.swift; sourceTree = "<group>"; };
 		C349A6752465FB5E00685DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C349A67F246603E800685DFD /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		C349A686246728E700685DFD /* FourSquareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareService.swift; sourceTree = "<group>"; };
+		C349A68824672A6E00685DFD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C349A68B24672C7100685DFD /* CoffeeMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMapViewModel.swift; sourceTree = "<group>"; };
+		C349A68E2467340400685DFD /* FSAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSAnnotation.swift; sourceTree = "<group>"; };
+		C349A691246735C600685DFD /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		C349A6972467713C00685DFD /* CoffeeShopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C349A69B2467713C00685DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C349A6A22467724900685DFD /* Response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
+		C349A6A7246777CA00685DFD /* FourSquareRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareRequest.swift; sourceTree = "<group>"; };
+		C35C11892469993400D74DD4 /* MockCoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoffeeViewModel.swift; sourceTree = "<group>"; };
+		C38FE72424688BD10062C9E7 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		C38FE727246898C40062C9E7 /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
+		C38FE72924689AA50062C9E7 /* LocationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceTests.swift; sourceTree = "<group>"; };
+		C38FE72B2468D1B80062C9E7 /* CoffeeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModelTests.swift; sourceTree = "<group>"; };
+		C38FE72D2468D1EC0062C9E7 /* MockFourSquareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFourSquareService.swift; sourceTree = "<group>"; };
+		C38FE7302468DC210062C9E7 /* Mockdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Mockdata.json; sourceTree = "<group>"; };
+		C38FE7322468EA060062C9E7 /* MockNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkSession.swift; sourceTree = "<group>"; };
+		C38FE7342468EAC40062C9E7 /* FourSquareServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareServiceTests.swift; sourceTree = "<group>"; };
+		C38FE7362468FFFD0062C9E7 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		C38FE7382469002F0062C9E7 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		C3F2E15F2469043E00AB3BA5 /* FourSuareRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSuareRequestTests.swift; sourceTree = "<group>"; };
+		C3F2E16124690E9100AB3BA5 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +113,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C349A6942467713C00685DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C337D2D9246A395A0096370E /* Testdata */ = {
+			isa = PBXGroup;
+			children = (
+				C349A6A22467724900685DFD /* Response.json */,
+				C337D2D7246A39450096370E /* ErrorResponse.json */,
+				C38FE7302468DC210062C9E7 /* Mockdata.json */,
+			);
+			path = Testdata;
+			sourceTree = "<group>";
+		};
+		C337D2DA246A3FCD0096370E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C337D2DB246A3FE20096370E /* URLExtensions.swift */,
+				C337D2DD246A40030096370E /* UIVIewControllerExtesnions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C349A6502465FB5C00685DFD = {
 			isa = PBXGroup;
 			children = (
 				C349A65B2465FB5C00685DFD /* CoffeeShops */,
 				C349A6722465FB5E00685DFD /* CoffeeShopsUITests */,
+				C349A6982467713C00685DFD /* CoffeeShopsTests */,
 				C349A65A2465FB5C00685DFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +157,7 @@
 			children = (
 				C349A6592465FB5C00685DFD /* CoffeeShops.app */,
 				C349A66F2465FB5E00685DFD /* CoffeeShopsUITests.xctest */,
+				C349A6972467713C00685DFD /* CoffeeShopsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +165,15 @@
 		C349A65B2465FB5C00685DFD /* CoffeeShops */ = {
 			isa = PBXGroup;
 			children = (
+				C337D2DA246A3FCD0096370E /* Extensions */,
+				C35C118B246A2D6000D74DD4 /* Controllers */,
+				C38FE72324688BB80062C9E7 /* LocationManager */,
+				C349A68D246733C400685DFD /* MapHelpers */,
+				C349A68A24672C4700685DFD /* ViewModels */,
+				C349A685246728BB00685DFD /* Services */,
+				C349A67E2466032C00685DFD /* Models */,
 				C349A65C2465FB5C00685DFD /* AppDelegate.swift */,
 				C349A65E2465FB5C00685DFD /* SceneDelegate.swift */,
-				C349A6602465FB5C00685DFD /* ViewController.swift */,
 				C349A6622465FB5C00685DFD /* Main.storyboard */,
 				C349A6652465FB5E00685DFD /* Assets.xcassets */,
 				C349A6672465FB5E00685DFD /* LaunchScreen.storyboard */,
@@ -97,6 +189,85 @@
 				C349A6752465FB5E00685DFD /* Info.plist */,
 			);
 			path = CoffeeShopsUITests;
+			sourceTree = "<group>";
+		};
+		C349A67E2466032C00685DFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C349A67F246603E800685DFD /* SearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C349A685246728BB00685DFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C349A686246728E700685DFD /* FourSquareService.swift */,
+				C349A68824672A6E00685DFD /* Result.swift */,
+				C349A6A7246777CA00685DFD /* FourSquareRequest.swift */,
+				C38FE7382469002F0062C9E7 /* RequestProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C349A68A24672C4700685DFD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C349A68B24672C7100685DFD /* CoffeeMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C349A68D246733C400685DFD /* MapHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				C349A691246735C600685DFD /* AnnotationView.swift */,
+				C349A68E2467340400685DFD /* FSAnnotation.swift */,
+			);
+			path = MapHelpers;
+			sourceTree = "<group>";
+		};
+		C349A6982467713C00685DFD /* CoffeeShopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C337D2D9246A395A0096370E /* Testdata */,
+				C38FE726246898B20062C9E7 /* Mocks */,
+				C349A69B2467713C00685DFD /* Info.plist */,
+				C38FE72924689AA50062C9E7 /* LocationServiceTests.swift */,
+				C38FE72B2468D1B80062C9E7 /* CoffeeViewModelTests.swift */,
+				C38FE7342468EAC40062C9E7 /* FourSquareServiceTests.swift */,
+				C3F2E15F2469043E00AB3BA5 /* FourSuareRequestTests.swift */,
+				C3F2E16124690E9100AB3BA5 /* ViewControllerTests.swift */,
+			);
+			path = CoffeeShopsTests;
+			sourceTree = "<group>";
+		};
+		C35C118B246A2D6000D74DD4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C349A6602465FB5C00685DFD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C38FE72324688BB80062C9E7 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				C38FE72424688BD10062C9E7 /* LocationService.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		C38FE726246898B20062C9E7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C38FE727246898C40062C9E7 /* MockLocationManager.swift */,
+				C38FE7322468EA060062C9E7 /* MockNetworkSession.swift */,
+				C38FE72D2468D1EC0062C9E7 /* MockFourSquareService.swift */,
+				C38FE7362468FFFD0062C9E7 /* MockRequest.swift */,
+				C35C11892469993400D74DD4 /* MockCoffeeViewModel.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +308,24 @@
 			productReference = C349A66F2465FB5E00685DFD /* CoffeeShopsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C349A6962467713C00685DFD /* CoffeeShopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C349A69E2467713C00685DFD /* Build configuration list for PBXNativeTarget "CoffeeShopsTests" */;
+			buildPhases = (
+				C349A6932467713C00685DFD /* Sources */,
+				C349A6942467713C00685DFD /* Frameworks */,
+				C349A6952467713C00685DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C349A69D2467713C00685DFD /* PBXTargetDependency */,
+			);
+			name = CoffeeShopsTests;
+			productName = CoffeeShopsTests;
+			productReference = C349A6972467713C00685DFD /* CoffeeShopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +340,10 @@
 						CreatedOnToolsVersion = 11.4.1;
 					};
 					C349A66E2465FB5E00685DFD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = C349A6582465FB5C00685DFD;
+					};
+					C349A6962467713C00685DFD = {
 						CreatedOnToolsVersion = 11.4.1;
 						TestTargetID = C349A6582465FB5C00685DFD;
 					};
@@ -171,6 +364,7 @@
 			targets = (
 				C349A6582465FB5C00685DFD /* CoffeeShops */,
 				C349A66E2465FB5E00685DFD /* CoffeeShopsUITests */,
+				C349A6962467713C00685DFD /* CoffeeShopsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38FE72F2468DA840062C9E7 /* Response.json in Resources */,
 				C349A6692465FB5E00685DFD /* LaunchScreen.storyboard in Resources */,
 				C349A6662465FB5E00685DFD /* Assets.xcassets in Resources */,
 				C349A6642465FB5C00685DFD /* Main.storyboard in Resources */,
@@ -193,6 +388,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C349A6952467713C00685DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FE7312468DC210062C9E7 /* Mockdata.json in Resources */,
+				C337D2D8246A39450096370E /* ErrorResponse.json in Resources */,
+				C349A6A32467724900685DFD /* Response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -200,9 +405,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C349A68924672A6E00685DFD /* Result.swift in Sources */,
+				C349A692246735C600685DFD /* AnnotationView.swift in Sources */,
+				C349A68F2467340400685DFD /* FSAnnotation.swift in Sources */,
+				C337D2DE246A40030096370E /* UIVIewControllerExtesnions.swift in Sources */,
+				C349A68C24672C7100685DFD /* CoffeeMapViewModel.swift in Sources */,
+				C349A687246728E700685DFD /* FourSquareService.swift in Sources */,
+				C349A6A8246777CA00685DFD /* FourSquareRequest.swift in Sources */,
+				C349A680246603E800685DFD /* SearchResponse.swift in Sources */,
+				C337D2DC246A3FE20096370E /* URLExtensions.swift in Sources */,
+				C38FE72524688BD10062C9E7 /* LocationService.swift in Sources */,
 				C349A6612465FB5C00685DFD /* ViewController.swift in Sources */,
 				C349A65D2465FB5C00685DFD /* AppDelegate.swift in Sources */,
 				C349A65F2465FB5C00685DFD /* SceneDelegate.swift in Sources */,
+				C38FE7392469002F0062C9E7 /* RequestProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +430,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C349A6932467713C00685DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F2E16224690E9100AB3BA5 /* ViewControllerTests.swift in Sources */,
+				C38FE72C2468D1B80062C9E7 /* CoffeeViewModelTests.swift in Sources */,
+				C38FE728246898C40062C9E7 /* MockLocationManager.swift in Sources */,
+				C38FE7352468EAC40062C9E7 /* FourSquareServiceTests.swift in Sources */,
+				C35C118A2469993400D74DD4 /* MockCoffeeViewModel.swift in Sources */,
+				C38FE72A24689AA50062C9E7 /* LocationServiceTests.swift in Sources */,
+				C3F2E1602469043E00AB3BA5 /* FourSuareRequestTests.swift in Sources */,
+				C38FE7332468EA060062C9E7 /* MockNetworkSession.swift in Sources */,
+				C38FE72E2468D1EC0062C9E7 /* MockFourSquareService.swift in Sources */,
+				C38FE7372468FFFD0062C9E7 /* MockRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +454,11 @@
 			isa = PBXTargetDependency;
 			target = C349A6582465FB5C00685DFD /* CoffeeShops */;
 			targetProxy = C349A6702465FB5E00685DFD /* PBXContainerItemProxy */;
+		};
+		C349A69D2467713C00685DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C349A6582465FB5C00685DFD /* CoffeeShops */;
+			targetProxy = C349A69C2467713C00685DFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -294,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +672,46 @@
 			};
 			name = Release;
 		};
+		C349A69F2467713C00685DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBX2U5F58;
+				INFOPLIST_FILE = CoffeeShopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PK.CoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeShops.app/CoffeeShops";
+			};
+			name = Debug;
+		};
+		C349A6A02467713C00685DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KBX2U5F58;
+				INFOPLIST_FILE = CoffeeShopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PK.CoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeShops.app/CoffeeShops";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +738,15 @@
 			buildConfigurations = (
 				C349A67C2465FB5E00685DFD /* Debug */,
 				C349A67D2465FB5E00685DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C349A69E2467713C00685DFD /* Build configuration list for PBXNativeTarget "CoffeeShopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C349A69F2467713C00685DFD /* Debug */,
+				C349A6A02467713C00685DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

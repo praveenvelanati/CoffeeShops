@@ -1,0 +1,9 @@
+{
+    "meta": {
+        "code": 400,
+        "errorType": "invalid_auth",
+        "errorDetail": "Missing access credentials. See https://developer.foursquare.com/docs/api/configuration/authentication for details.",
+        "requestId": "5eba02455fb726001bf64647"
+    },
+    "response": {}
+}
