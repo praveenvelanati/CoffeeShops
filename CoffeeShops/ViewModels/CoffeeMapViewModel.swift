@@ -9,16 +9,6 @@
 import Foundation
 import CoreLocation
 
-protocol CoffeeMapViewModelType {
-    func getCoffeeShops(location: CLLocation)
-    var delegate: CoffeeMapResultsProtocol? { get set }
-    init(service: FourSquareServiceType, locationService: LocationService)
-    var service: FourSquareServiceType? { get }
-    var locationService: LocationService { get }
-    var annotations: [FSAnnotation] { get }
-    var errorAlert: ErrorAlert? { get }
-}
-
 protocol CoffeeMapResultsProtocol: class {
     func updateMapWith(_ annotations: [FSAnnotation], location: CLLocation)
     func alertUserWith(_ title: String, message: String)

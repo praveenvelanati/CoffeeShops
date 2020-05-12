@@ -9,7 +9,6 @@ protocol FourSquareServiceType {
 
 class FourSquareService: FourSquareServiceType {
     
-    
     private let session: NetworkSession
 
     init(session: NetworkSession = URLSession.shared) {

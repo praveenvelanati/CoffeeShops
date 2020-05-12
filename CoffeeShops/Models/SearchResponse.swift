@@ -8,6 +8,11 @@
 
 import Foundation
 
+
+/* All the properties are intentionally kept optional because of Unknown nature of remote response.
+   We have unit tests to test decoding the existing stricture of api response
+ */
+
 // MARK: - SearchResponse
 struct SearchResponse: Codable {
     let meta: Meta?

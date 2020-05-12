@@ -10,6 +10,7 @@
 		C337D2D8246A39450096370E /* ErrorResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C337D2D7246A39450096370E /* ErrorResponse.json */; };
 		C337D2DC246A3FE20096370E /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337D2DB246A3FE20096370E /* URLExtensions.swift */; };
 		C337D2DE246A40030096370E /* UIVIewControllerExtesnions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337D2DD246A40030096370E /* UIVIewControllerExtesnions.swift */; };
+		C337D2E0246A46DC0096370E /* CoffeeMapViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337D2DF246A46DC0096370E /* CoffeeMapViewModelType.swift */; };
 		C349A65D2465FB5C00685DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A65C2465FB5C00685DFD /* AppDelegate.swift */; };
 		C349A65F2465FB5C00685DFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A65E2465FB5C00685DFD /* SceneDelegate.swift */; };
 		C349A6612465FB5C00685DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349A6602465FB5C00685DFD /* ViewController.swift */; };
@@ -62,6 +63,7 @@
 		C337D2D7246A39450096370E /* ErrorResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ErrorResponse.json; sourceTree = "<group>"; };
 		C337D2DB246A3FE20096370E /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
 		C337D2DD246A40030096370E /* UIVIewControllerExtesnions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtesnions.swift; sourceTree = "<group>"; };
+		C337D2DF246A46DC0096370E /* CoffeeMapViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMapViewModelType.swift; sourceTree = "<group>"; };
 		C349A6592465FB5C00685DFD /* CoffeeShops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C349A65C2465FB5C00685DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C349A65E2465FB5C00685DFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				C349A68B24672C7100685DFD /* CoffeeMapViewModel.swift */,
+				C337D2DF246A46DC0096370E /* CoffeeMapViewModelType.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				C337D2DE246A40030096370E /* UIVIewControllerExtesnions.swift in Sources */,
 				C349A68C24672C7100685DFD /* CoffeeMapViewModel.swift in Sources */,
 				C349A687246728E700685DFD /* FourSquareService.swift in Sources */,
+				C337D2E0246A46DC0096370E /* CoffeeMapViewModelType.swift in Sources */,
 				C349A6A8246777CA00685DFD /* FourSquareRequest.swift in Sources */,
 				C349A680246603E800685DFD /* SearchResponse.swift in Sources */,
 				C337D2DC246A3FE20096370E /* URLExtensions.swift in Sources */,
